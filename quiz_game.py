@@ -15,6 +15,12 @@
 #     else:
 #         print("Wrong!")
 
-question = {"question": "What is the capital of France?", "answer": "paris"}
+question = {"question": "What is the capital of France?: ", "answer": "paris"}
 
-print(question["question"])
+user_answer = input(question["question"])
+print(user_answer)
+
+if user_answer == question["answer"]:
+    print("ooh Emmilie you got it Correct....🥹")
+else:
+    print(f"ooh Emmilie you're Wrong 🥹 but it's ok to try again! The was answer {question['answer']}")
