@@ -1,16 +1,20 @@
-score = 0
+# score = 0
 
-while True:
-    animal = [
+# while True:
+#     questions = [
         
-        {"question": "What sound does a dog make?", "answer": "Bark"}
+#         {"question": "What sound does a dog make?", "answer": "Bark"}
 
-    ]
-    for animal in animal:
-    # print(animal["question"])
+#     ]
+#     for question in questions:
+#     # print(animal["question"])
 
-    solution = input("What's your answer: ")
-    if solution.lower() == animal["answer"].lower():
-        print("Correct!")
-    else:
-        print("Wrong!")
+#     solution = input("What's your answer: ")
+#     if solution.lower() == animal["answer"].lower():
+#         print("Correct!")
+#     else:
+#         print("Wrong!")
+
+question = {"question": "What is the capital of France?", "answer": "paris"}
+
+print(question["question"])
